@@ -1,0 +1,16 @@
+PODS:
+  - TextfieldPodLibEn (0.1.0)
+
+DEPENDENCIES:
+  - TextfieldPodLibEn (from `../`)
+
+EXTERNAL SOURCES:
+  TextfieldPodLibEn:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TextfieldPodLibEn: b0f7ab422cd42d80c93f6dcd0df32e94c54e71c1
+
+PODFILE CHECKSUM: f7d7d80591c157aad9dcb107355c9d0eb7a14e89
+
+COCOAPODS: 1.11.2

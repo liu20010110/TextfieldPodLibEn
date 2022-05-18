@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C07E0AA43F62236AF3B24A8AD577AA9 /* Pods-TextfieldPodLibEn_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BB44AC5A4B023337A7525F4B378EE1 /* Pods-TextfieldPodLibEn_Tests-dummy.m */; };
+		37DC88FD8897C03F39595EE49F7D9E1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3D9841B610738ADD8A5EADF212EDB60F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		46CBF119E8BF5F82C3577418634452AD /* TextfieldPodLibEn-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D83157007289D4CA11CC8ADDB4129887 /* TextfieldPodLibEn-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EEC23AF4BE06858CE853471BAE62A05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		86E103A1559712D4AAF7A6155CF642D3 /* Pods-TextfieldPodLibEn_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 898DFA889A72DC69A1EB0514AA6636E3 /* Pods-TextfieldPodLibEn_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A20F6F40F9735E5D788C7EDBB878963D /* TextfieldPodLibEn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C16A6C0F0EDFB5FE75EF6EEB2C77D7E2 /* TextfieldPodLibEn-dummy.m */; };
+		A6CD68DC283506F500CEB1A8 /* TextfieldPodLibEn.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6CD68DB283506F500CEB1A8 /* TextfieldPodLibEn.xcassets */; };
+		A6CD68DE2835070B00CEB1A8 /* TextfieldFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CD68DD2835070B00CEB1A8 /* TextfieldFunc.swift */; };
+		CEFB13FEF2813ECBD7141E4B2577D8B7 /* Pods-TextfieldPodLibEn_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A35EDA2AFF8084441E07D62933D9CD9 /* Pods-TextfieldPodLibEn_Example-dummy.m */; };
+		E5E08B5FB305645D6308921636CFF6EC /* Pods-TextfieldPodLibEn_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C7495C5037586688024AD2B91905517 /* Pods-TextfieldPodLibEn_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F3EA4A40F9C1B95AAB826BCFC5AE896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23F2DF2FC6413E8DC05C30BA70313A29;
+			remoteInfo = "Pods-TextfieldPodLibEn_Example";
+		};
+		E1C0DA63919891886532AD44E91C2228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA8C8C76A96BF9AD29088B95C1373C14;
+			remoteInfo = TextfieldPodLibEn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0083B921A500B984A66B8899181A61D1 /* TextfieldPodLibEn.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextfieldPodLibEn.modulemap; sourceTree = "<group>"; };
+		02C99E5BD08ED5AF641263048349FDE5 /* Pods-TextfieldPodLibEn_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TextfieldPodLibEn_Tests"; path = Pods_TextfieldPodLibEn_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13330245D62212160D4190A7A79F3657 /* Pods-TextfieldPodLibEn_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextfieldPodLibEn_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2603B284AF041408F0A25C9576DA0FAB /* TextfieldPodLibEn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextfieldPodLibEn.debug.xcconfig; sourceTree = "<group>"; };
+		2C7495C5037586688024AD2B91905517 /* Pods-TextfieldPodLibEn_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextfieldPodLibEn_Example-umbrella.h"; sourceTree = "<group>"; };
+		37DEEC6C15E807B9B72AFE958AC31033 /* Pods-TextfieldPodLibEn_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextfieldPodLibEn_Example-Info.plist"; sourceTree = "<group>"; };
+		3AC8FCF5F9C670259D8A634FC050AB8D /* Pods-TextfieldPodLibEn_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextfieldPodLibEn_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4847E8CA487E9107700FE9D42D546926 /* Pods-TextfieldPodLibEn_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextfieldPodLibEn_Tests-Info.plist"; sourceTree = "<group>"; };
+		4C730B22C41D9F7749B1CF176C47E432 /* TextfieldPodLibEn-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextfieldPodLibEn-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75D440BCA0CFD8A38B0413E12926E375 /* Pods-TextfieldPodLibEn_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextfieldPodLibEn_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A35EDA2AFF8084441E07D62933D9CD9 /* Pods-TextfieldPodLibEn_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TextfieldPodLibEn_Example-dummy.m"; sourceTree = "<group>"; };
+		898DFA889A72DC69A1EB0514AA6636E3 /* Pods-TextfieldPodLibEn_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextfieldPodLibEn_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8B145B51B38AA447A79B54B00C7DE68A /* Pods-TextfieldPodLibEn_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextfieldPodLibEn_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		92279755304AD312B02E96AD674FDDDC /* TextfieldPodLibEn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextfieldPodLibEn.release.xcconfig; sourceTree = "<group>"; };
+		98526D95E656FC796D8966ECCCA8555D /* TextfieldPodLibEn.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TextfieldPodLibEn.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A1837D634F8DD5E04E56A85DC7B8DDF /* Pods_TextfieldPodLibEn_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextfieldPodLibEn_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7BC3993CFA83FF989D9A794A10AB0C /* TextfieldPodLibEn-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextfieldPodLibEn-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5BB44AC5A4B023337A7525F4B378EE1 /* Pods-TextfieldPodLibEn_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TextfieldPodLibEn_Tests-dummy.m"; sourceTree = "<group>"; };
+		A6CD68DB283506F500CEB1A8 /* TextfieldPodLibEn.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TextfieldPodLibEn.xcassets; sourceTree = "<group>"; };
+		A6CD68DD2835070B00CEB1A8 /* TextfieldFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldFunc.swift; sourceTree = "<group>"; };
+		B0E4375D4FD76D532A38F202294B7631 /* Pods-TextfieldPodLibEn_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TextfieldPodLibEn_Example.modulemap"; sourceTree = "<group>"; };
+		BD598F01AF883F96DBD4309EA3CCCBFD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C16A6C0F0EDFB5FE75EF6EEB2C77D7E2 /* TextfieldPodLibEn-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextfieldPodLibEn-dummy.m"; sourceTree = "<group>"; };
+		C4AB579C15E5CB352D1554EEC2E03A23 /* Pods-TextfieldPodLibEn_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TextfieldPodLibEn_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C8BAB9532DC7157A9302C4780FBB7629 /* Pods-TextfieldPodLibEn_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TextfieldPodLibEn_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC1226F1AB2C3109AD3D5B156E995042 /* TextfieldPodLibEn */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextfieldPodLibEn; path = TextfieldPodLibEn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5B1975B37798076B429BDDA045C3D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D35AC41F9C4B2F7AD8AFCA13C8AA3E29 /* Pods-TextfieldPodLibEn_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextfieldPodLibEn_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D83157007289D4CA11CC8ADDB4129887 /* TextfieldPodLibEn-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextfieldPodLibEn-umbrella.h"; sourceTree = "<group>"; };
+		DF68B6F133E8246BB392CCDA00F1C06E /* Pods-TextfieldPodLibEn_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TextfieldPodLibEn_Tests.modulemap"; sourceTree = "<group>"; };
+		E4CC85E52DDA678848E79B9F744B6A02 /* Pods-TextfieldPodLibEn_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TextfieldPodLibEn_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8B7B0256C08A1898FC3AB4EE19392BD /* Pods-TextfieldPodLibEn_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextfieldPodLibEn_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24F0E1553AD0679ABAAB3271E00F659F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DC88FD8897C03F39595EE49F7D9E1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5CC97BACE4FE3719DFA087A6946649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9841B610738ADD8A5EADF212EDB60F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95394DBE1358A3FF42BD4BEDC534CC43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEC23AF4BE06858CE853471BAE62A05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A038EF74D2D1C51037E76833E570DA5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0083B921A500B984A66B8899181A61D1 /* TextfieldPodLibEn.modulemap */,
+				C16A6C0F0EDFB5FE75EF6EEB2C77D7E2 /* TextfieldPodLibEn-dummy.m */,
+				9B7BC3993CFA83FF989D9A794A10AB0C /* TextfieldPodLibEn-Info.plist */,
+				4C730B22C41D9F7749B1CF176C47E432 /* TextfieldPodLibEn-prefix.pch */,
+				D83157007289D4CA11CC8ADDB4129887 /* TextfieldPodLibEn-umbrella.h */,
+				2603B284AF041408F0A25C9576DA0FAB /* TextfieldPodLibEn.debug.xcconfig */,
+				92279755304AD312B02E96AD674FDDDC /* TextfieldPodLibEn.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TextfieldPodLibEn";
+			sourceTree = "<group>";
+		};
+		4AA44FC6803CA9017DCCC65300FC7AC5 /* Pods-TextfieldPodLibEn_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B0E4375D4FD76D532A38F202294B7631 /* Pods-TextfieldPodLibEn_Example.modulemap */,
+				C8BAB9532DC7157A9302C4780FBB7629 /* Pods-TextfieldPodLibEn_Example-acknowledgements.markdown */,
+				8B145B51B38AA447A79B54B00C7DE68A /* Pods-TextfieldPodLibEn_Example-acknowledgements.plist */,
+				7A35EDA2AFF8084441E07D62933D9CD9 /* Pods-TextfieldPodLibEn_Example-dummy.m */,
+				C4AB579C15E5CB352D1554EEC2E03A23 /* Pods-TextfieldPodLibEn_Example-frameworks.sh */,
+				37DEEC6C15E807B9B72AFE958AC31033 /* Pods-TextfieldPodLibEn_Example-Info.plist */,
+				2C7495C5037586688024AD2B91905517 /* Pods-TextfieldPodLibEn_Example-umbrella.h */,
+				13330245D62212160D4190A7A79F3657 /* Pods-TextfieldPodLibEn_Example.debug.xcconfig */,
+				3AC8FCF5F9C670259D8A634FC050AB8D /* Pods-TextfieldPodLibEn_Example.release.xcconfig */,
+			);
+			name = "Pods-TextfieldPodLibEn_Example";
+			path = "Target Support Files/Pods-TextfieldPodLibEn_Example";
+			sourceTree = "<group>";
+		};
+		515FC5C55B67822357C387087D77C55B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AA44FC6803CA9017DCCC65300FC7AC5 /* Pods-TextfieldPodLibEn_Example */,
+				F9D9E8B74490EE5436C42275272F9F46 /* Pods-TextfieldPodLibEn_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5CB93E0B268029DF14457AF7E95026E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A1837D634F8DD5E04E56A85DC7B8DDF /* Pods_TextfieldPodLibEn_Example.framework */,
+				02C99E5BD08ED5AF641263048349FDE5 /* Pods-TextfieldPodLibEn_Tests */,
+				CC1226F1AB2C3109AD3D5B156E995042 /* TextfieldPodLibEn */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77B55D8083C4E82AA6AFDCB2DCF870C7 /* TextfieldPodLibEn */ = {
+			isa = PBXGroup;
+			children = (
+				A6CD68D5283506BE00CEB1A8 /* Assets */,
+				A6CD68D7283506BE00CEB1A8 /* Classes */,
+				EE7E4BAC5FF4BC83303559F04BE5DA78 /* Pod */,
+				3A038EF74D2D1C51037E76833E570DA5 /* Support Files */,
+			);
+			name = TextfieldPodLibEn;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A6CD68D5283506BE00CEB1A8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A6CD68DB283506F500CEB1A8 /* TextfieldPodLibEn.xcassets */,
+			);
+			name = Assets;
+			path = TextfieldPodLibEn/Assets;
+			sourceTree = "<group>";
+		};
+		A6CD68D7283506BE00CEB1A8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A6CD68DD2835070B00CEB1A8 /* TextfieldFunc.swift */,
+			);
+			name = Classes;
+			path = TextfieldPodLibEn/Classes;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F16A57D5FAE2518DFB29EB3DA72A9318 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5CB93E0B268029DF14457AF7E95026E7 /* Products */,
+				515FC5C55B67822357C387087D77C55B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE7E4BAC5FF4BC83303559F04BE5DA78 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BD598F01AF883F96DBD4309EA3CCCBFD /* LICENSE */,
+				CC5B1975B37798076B429BDDA045C3D4 /* README.md */,
+				98526D95E656FC796D8966ECCCA8555D /* TextfieldPodLibEn.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F16A57D5FAE2518DFB29EB3DA72A9318 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77B55D8083C4E82AA6AFDCB2DCF870C7 /* TextfieldPodLibEn */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F9D9E8B74490EE5436C42275272F9F46 /* Pods-TextfieldPodLibEn_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DF68B6F133E8246BB392CCDA00F1C06E /* Pods-TextfieldPodLibEn_Tests.modulemap */,
+				E4CC85E52DDA678848E79B9F744B6A02 /* Pods-TextfieldPodLibEn_Tests-acknowledgements.markdown */,
+				D35AC41F9C4B2F7AD8AFCA13C8AA3E29 /* Pods-TextfieldPodLibEn_Tests-acknowledgements.plist */,
+				A5BB44AC5A4B023337A7525F4B378EE1 /* Pods-TextfieldPodLibEn_Tests-dummy.m */,
+				4847E8CA487E9107700FE9D42D546926 /* Pods-TextfieldPodLibEn_Tests-Info.plist */,
+				898DFA889A72DC69A1EB0514AA6636E3 /* Pods-TextfieldPodLibEn_Tests-umbrella.h */,
+				75D440BCA0CFD8A38B0413E12926E375 /* Pods-TextfieldPodLibEn_Tests.debug.xcconfig */,
+				E8B7B0256C08A1898FC3AB4EE19392BD /* Pods-TextfieldPodLibEn_Tests.release.xcconfig */,
+			);
+			name = "Pods-TextfieldPodLibEn_Tests";
+			path = "Target Support Files/Pods-TextfieldPodLibEn_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		95798EF03EFDFA8B54C4522E397786EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CBF119E8BF5F82C3577418634452AD /* TextfieldPodLibEn-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B383B5A523F27DDEE0F1B7753A85C66B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E08B5FB305645D6308921636CFF6EC /* Pods-TextfieldPodLibEn_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7EDAD2A79E0D0EAB83C4565C0CB0E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E103A1559712D4AAF7A6155CF642D3 /* Pods-TextfieldPodLibEn_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23F2DF2FC6413E8DC05C30BA70313A29 /* Pods-TextfieldPodLibEn_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BCF612AE9B1FCC4F6B84E8C942C0D73 /* Build configuration list for PBXNativeTarget "Pods-TextfieldPodLibEn_Example" */;
+			buildPhases = (
+				B383B5A523F27DDEE0F1B7753A85C66B /* Headers */,
+				615D11B83EB977484D93B1DE47F2B5D0 /* Sources */,
+				24F0E1553AD0679ABAAB3271E00F659F /* Frameworks */,
+				7E8135EF90F16F5E88D905F6B3249093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FED957DDA7128AC638CB9311CA3F7B22 /* PBXTargetDependency */,
+			);
+			name = "Pods-TextfieldPodLibEn_Example";
+			productName = Pods_TextfieldPodLibEn_Example;
+			productReference = 9A1837D634F8DD5E04E56A85DC7B8DDF /* Pods_TextfieldPodLibEn_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4BEE240ABB1DA164C273166DF88F8BE5 /* Pods-TextfieldPodLibEn_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34978EC4B4B1B3396545A5DA51AC9052 /* Build configuration list for PBXNativeTarget "Pods-TextfieldPodLibEn_Tests" */;
+			buildPhases = (
+				FC7EDAD2A79E0D0EAB83C4565C0CB0E7 /* Headers */,
+				962EC96DB73404CBC1E4EDFE9B80585F /* Sources */,
+				8E5CC97BACE4FE3719DFA087A6946649 /* Frameworks */,
+				3A951FF9D517998FE73D871CBEA6B9B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E38235C0A3858F516DD21B989BB5DA64 /* PBXTargetDependency */,
+			);
+			name = "Pods-TextfieldPodLibEn_Tests";
+			productName = Pods_TextfieldPodLibEn_Tests;
+			productReference = 02C99E5BD08ED5AF641263048349FDE5 /* Pods-TextfieldPodLibEn_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA8C8C76A96BF9AD29088B95C1373C14 /* TextfieldPodLibEn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3A253A3125EBB4C52DB6379E1BDE97E /* Build configuration list for PBXNativeTarget "TextfieldPodLibEn" */;
+			buildPhases = (
+				95798EF03EFDFA8B54C4522E397786EE /* Headers */,
+				40C3A03ABACE8C0BF1AD49C23BB7C7B3 /* Sources */,
+				95394DBE1358A3FF42BD4BEDC534CC43 /* Frameworks */,
+				0D2025E573A1220903CC6372918C3C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextfieldPodLibEn;
+			productName = TextfieldPodLibEn;
+			productReference = CC1226F1AB2C3109AD3D5B156E995042 /* TextfieldPodLibEn */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					23F2DF2FC6413E8DC05C30BA70313A29 = {
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5CB93E0B268029DF14457AF7E95026E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23F2DF2FC6413E8DC05C30BA70313A29 /* Pods-TextfieldPodLibEn_Example */,
+				4BEE240ABB1DA164C273166DF88F8BE5 /* Pods-TextfieldPodLibEn_Tests */,
+				DA8C8C76A96BF9AD29088B95C1373C14 /* TextfieldPodLibEn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D2025E573A1220903CC6372918C3C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A951FF9D517998FE73D871CBEA6B9B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8135EF90F16F5E88D905F6B3249093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CD68DC283506F500CEB1A8 /* TextfieldPodLibEn.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40C3A03ABACE8C0BF1AD49C23BB7C7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20F6F40F9735E5D788C7EDBB878963D /* TextfieldPodLibEn-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615D11B83EB977484D93B1DE47F2B5D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFB13FEF2813ECBD7141E4B2577D8B7 /* Pods-TextfieldPodLibEn_Example-dummy.m in Sources */,
+				A6CD68DE2835070B00CEB1A8 /* TextfieldFunc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962EC96DB73404CBC1E4EDFE9B80585F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C07E0AA43F62236AF3B24A8AD577AA9 /* Pods-TextfieldPodLibEn_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E38235C0A3858F516DD21B989BB5DA64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TextfieldPodLibEn_Example";
+			target = 23F2DF2FC6413E8DC05C30BA70313A29 /* Pods-TextfieldPodLibEn_Example */;
+			targetProxy = 0F3EA4A40F9C1B95AAB826BCFC5AE896 /* PBXContainerItemProxy */;
+		};
+		FED957DDA7128AC638CB9311CA3F7B22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextfieldPodLibEn;
+			target = DA8C8C76A96BF9AD29088B95C1373C14 /* TextfieldPodLibEn */;
+			targetProxy = E1C0DA63919891886532AD44E91C2228 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21F9159BA272502E7D7D4CE52E31C93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D440BCA0CFD8A38B0413E12926E375 /* Pods-TextfieldPodLibEn_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TextfieldPodLibEn_Tests/Pods-TextfieldPodLibEn_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TextfieldPodLibEn_Tests/Pods-TextfieldPodLibEn_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		26DF779DCC935DB3EF79B02573821624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92279755304AD312B02E96AD674FDDDC /* TextfieldPodLibEn.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextfieldPodLibEn/TextfieldPodLibEn-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextfieldPodLibEn/TextfieldPodLibEn-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextfieldPodLibEn/TextfieldPodLibEn.modulemap";
+				PRODUCT_MODULE_NAME = TextfieldPodLibEn;
+				PRODUCT_NAME = TextfieldPodLibEn;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D79045F47FF3E73FD35AB247CA4BA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC8FCF5F9C670259D8A634FC050AB8D /* Pods-TextfieldPodLibEn_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TextfieldPodLibEn_Example/Pods-TextfieldPodLibEn_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TextfieldPodLibEn_Example/Pods-TextfieldPodLibEn_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6DCA6285CE14F35AE32C9E85ABFADF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8B7B0256C08A1898FC3AB4EE19392BD /* Pods-TextfieldPodLibEn_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TextfieldPodLibEn_Tests/Pods-TextfieldPodLibEn_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TextfieldPodLibEn_Tests/Pods-TextfieldPodLibEn_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A17E201D9A439C95C22D09611C172169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13330245D62212160D4190A7A79F3657 /* Pods-TextfieldPodLibEn_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TextfieldPodLibEn_Example/Pods-TextfieldPodLibEn_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TextfieldPodLibEn_Example/Pods-TextfieldPodLibEn_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1438C11ED007639BBED62B1753EF693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2603B284AF041408F0A25C9576DA0FAB /* TextfieldPodLibEn.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextfieldPodLibEn/TextfieldPodLibEn-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextfieldPodLibEn/TextfieldPodLibEn-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextfieldPodLibEn/TextfieldPodLibEn.modulemap";
+				PRODUCT_MODULE_NAME = TextfieldPodLibEn;
+				PRODUCT_NAME = TextfieldPodLibEn;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34978EC4B4B1B3396545A5DA51AC9052 /* Build configuration list for PBXNativeTarget "Pods-TextfieldPodLibEn_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F9159BA272502E7D7D4CE52E31C93E /* Debug */,
+				6DCA6285CE14F35AE32C9E85ABFADF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BCF612AE9B1FCC4F6B84E8C942C0D73 /* Build configuration list for PBXNativeTarget "Pods-TextfieldPodLibEn_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17E201D9A439C95C22D09611C172169 /* Debug */,
+				6D79045F47FF3E73FD35AB247CA4BA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3A253A3125EBB4C52DB6379E1BDE97E /* Build configuration list for PBXNativeTarget "TextfieldPodLibEn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1438C11ED007639BBED62B1753EF693 /* Debug */,
+				26DF779DCC935DB3EF79B02573821624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

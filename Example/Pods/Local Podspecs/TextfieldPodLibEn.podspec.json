@@ -1,0 +1,22 @@
+{
+  "name": "TextfieldPodLibEn",
+  "version": "0.1.0",
+  "summary": "A short description of TextfieldPodLibEn.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liu20010110/TextfieldPodLibEn",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liu20010110": "e45v92h56@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/liu20010110/TextfieldPodLibEn.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TextfieldPodLibEn/Classes/**/*"
+}

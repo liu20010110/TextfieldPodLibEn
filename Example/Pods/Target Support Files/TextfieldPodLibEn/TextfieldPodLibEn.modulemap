@@ -1,0 +1,6 @@
+framework module TextfieldPodLibEn {
+  umbrella header "TextfieldPodLibEn-umbrella.h"
+
+  export *
+  module * { export * }
+}
